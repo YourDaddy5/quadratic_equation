@@ -21,15 +21,13 @@ def quadratic_equation(a,b,c):
 
         print('Второй корень равен',x2)
 
-    if D == 0:
+    elif D == 0:
         print("Уравнение имеет 1 корень.")
         x = (-b + sqrt(D)) / (2*a)
         print("Корень- " , x)
 
-    if D <0:
+    elif D <0:
         print("Уравнение не имеет корней.")
 
     return ""
 
-
-print(quadratic_equation(2,5,3))
